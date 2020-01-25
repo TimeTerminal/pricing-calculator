@@ -4,9 +4,7 @@ A car pricing calculator made using React for calculating add-ons, applicable fe
 
 ![](public/images/image1.jpg)
 
-## Available Scripts
+## To run the app
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `yarn` followed by `yarn start`
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

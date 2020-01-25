@@ -1,0 +1,110 @@
+$backgroundColor: #0a1934;
+$textColor: #f4f4f4;
+$themePrimary: #e15e66;
+$themeSecondary: #f4c640;
+$themeTertiary: #323449;
+$themeQuaternary: #5f1644;
+
+body {
+  background: $backgroundColor;
+  color: $textColor;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+  margin-left: 25px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.image {
+  width: 700px;
+  border-radius: 10px;
+  margin: 0 0 5px;
+}
+
+.form,
+.container {
+  display: flex;
+  margin: 5px 0;
+  background-color: $themeTertiary;
+  border-radius: 10px;
+}
+
+.container {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px 35px;
+  width: 628px;
+  height: auto;
+  border: 1px solid $themePrimary;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.price {
+  color: $themePrimary;
+}
+
+.discount {
+  color: $themeSecondary;
+  font-weight: 300;
+  margin: 0;
+}
+
+.form {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 678px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid $themePrimary;
+}
+
+.checkboxContainer {
+  display: flex;
+  margin: 5px;
+  width: 30%;
+
+  border: 1px solid $themePrimary;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $themeQuaternary;
+  }
+}
+
+.highlight {
+  background-color: $themeQuaternary;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.checkbox {
+  margin: 0 5px;
+  cursor: pointer;
+  outline: 0 none !important;
+  border: 0;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}

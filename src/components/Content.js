@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../index.scss';
-import { ADD_ONS, BASE_PRICE } from '../constants';
+import { ADD_ONS } from '../constants';
 import { priceCalculator, updateAddonsCost } from '../helpers';
 
 export default class Content extends Component {

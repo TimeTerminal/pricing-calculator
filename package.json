@@ -1,12 +1,13 @@
 {
   "name": "price-calculator",
+  "author": "Vishesh Thanki",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start"

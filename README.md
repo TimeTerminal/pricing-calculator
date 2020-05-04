@@ -2,7 +2,7 @@
 
 A car pricing calculator made using React for calculating add-ons, applicable fees, and sur tax dynamically
 
-![](public/images/image1.jpg)
+![](public/images/image1.png)
 
 ## To run the app
 
